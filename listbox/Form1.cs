@@ -35,9 +35,24 @@ namespace listbox
                 case "Perro":
                     PictureBoxAnimales.Image= Image.FromFile("C:\\Users\\minilab-ing10\\source\\repos\\listbox\\listbox\\perro.jpg");
                     break;
+
+                case "Gato":
+                    PictureBoxAnimales.Image = Image.FromFile("C:\\Users\\minilab-ing10\\source\\repos\\listbox\\listbox\\Gato.jpg");
+                    break;
+
+                case "Conejo":  
+                    PictureBoxAnimales.Image = Image.FromFile("C:\\Users\\minilab-ing10\\source\\repos\\listbox\\listbox\\Conejo.jpg");
+                    break;
+
+                case "Pez":
+                    PictureBoxAnimales.Image = Image.FromFile("C:\\Users\\minilab-ing10\\source\\repos\\listbox\\listbox\\pez.jpg");
+                    break;
+
                 default:
                     break;
+
             }
+            
         }
     }
 }

@@ -59,7 +59,7 @@
             this.Controls.Add(this.PictureBoxAnimales);
             this.Controls.Add(this.ListBoxAnimales);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxAnimales)).EndInit();
             this.ResumeLayout(false);
